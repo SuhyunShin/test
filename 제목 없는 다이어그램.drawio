@@ -59,10 +59,34 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EFUaogxuQPC5bv3DmFa5" name="페이지-2">
-    <mxGraphModel dx="514" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="726" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-1" value="START" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-2" value="노드 이름: query&lt;div&gt;함수 이름: excel_data&lt;/div&gt;&lt;div&gt;함수 기능:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;df 관련 질문일 경우,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;질문에 대한 python 코드 생성 후 실행&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-3" value="노드 이름: answer_with_data&lt;div&gt;함수 이름: answer_with_data&lt;/div&gt;&lt;div&gt;함수 기능: 주어진 데이터를 설명&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-4" value="노드 이름: plain_answer&lt;div&gt;&lt;div&gt;함수 이름: answer&lt;/div&gt;&lt;div&gt;함수 기능: 아무것과도 관련 없는 질문일 경우, llm 바로 활용&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-6" value="노드 이름: excel_plot&lt;div&gt;&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;plot_graph&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 그래프 시각화&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-7" value="노드 이름: rag&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;retrieval&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 관련 정보를 벡터화된 문서에서 검색&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-8" value="노드 이름: answer_with_retrieved_data&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;answer_with_retrieved_data&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 들고 온 데이터를 기반으로 설명&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="430" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-10" value="노드 이름: init_answer&lt;div&gt;함수 이름: init_answer&lt;/div&gt;&lt;div&gt;함수 기능: 질문을 알맞게 분류&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="140" width="215" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
