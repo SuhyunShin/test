@@ -59,12 +59,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EFUaogxuQPC5bv3DmFa5" name="페이지-2">
-    <mxGraphModel dx="726" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="588" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4go0tpHrczQ-Uj_lrIO-1" target="i4go0tpHrczQ-Uj_lrIO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-1" value="START" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4go0tpHrczQ-Uj_lrIO-2" target="i4go0tpHrczQ-Uj_lrIO-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-2" value="노드 이름: query&lt;div&gt;함수 이름: excel_data&lt;/div&gt;&lt;div&gt;함수 기능:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;df 관련 질문일 경우,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;질문에 대한 python 코드 생성 후 실행&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="280" width="130" height="120" as="geometry" />
@@ -73,19 +79,49 @@
           <mxGeometry x="50" y="420" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-4" value="노드 이름: plain_answer&lt;div&gt;&lt;div&gt;함수 이름: answer&lt;/div&gt;&lt;div&gt;함수 기능: 아무것과도 관련 없는 질문일 경우, llm 바로 활용&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="420" width="130" height="120" as="geometry" />
+          <mxGeometry x="510" y="420" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-6" value="노드 이름: excel_plot&lt;div&gt;&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;plot_graph&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 질문에 알맞은 python 코드 생성 후 실행&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="420" width="130" height="120" as="geometry" />
+          <mxGeometry x="640" y="260" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-7" value="노드 이름: rag&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;retrieval&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 관련 정보를 벡터화된 문서에서 검색&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="280" width="130" height="120" as="geometry" />
+          <mxGeometry x="284" y="280" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-8" value="노드 이름: answer_with_retrieved_data&lt;div&gt;함수 이름:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;answer_with_retrieved_data&lt;/span&gt;&lt;/div&gt;&lt;div&gt;함수 기능: 들고 온 데이터를 기반으로 설명&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="420" width="230" height="120" as="geometry" />
+          <mxGeometry x="234" y="420" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i4go0tpHrczQ-Uj_lrIO-10" value="노드 이름: init_answer&lt;div&gt;함수 이름: init_answer&lt;/div&gt;&lt;div&gt;함수 기능: 질문을 알맞게 분류&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="312.5" y="140" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-13" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i4go0tpHrczQ-Uj_lrIO-10" target="i4go0tpHrczQ-Uj_lrIO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-14" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4go0tpHrczQ-Uj_lrIO-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="200" as="sourcePoint" />
+            <mxPoint x="125" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-15" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i4go0tpHrczQ-Uj_lrIO-10" target="i4go0tpHrczQ-Uj_lrIO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="210" as="sourcePoint" />
+            <mxPoint x="305" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-16" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i4go0tpHrczQ-Uj_lrIO-10" target="i4go0tpHrczQ-Uj_lrIO-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="210" as="sourcePoint" />
+            <mxPoint x="555" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4go0tpHrczQ-Uj_lrIO-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i4go0tpHrczQ-Uj_lrIO-7" target="i4go0tpHrczQ-Uj_lrIO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="350" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
